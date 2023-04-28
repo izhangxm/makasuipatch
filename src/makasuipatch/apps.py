@@ -3,11 +3,11 @@ import os
 import json
 import copy
 
-class SuiproxjConfig(AppConfig):
-    name = 'common.suiproxj'
+class MakasuipatchConfig(AppConfig):
+    name = 'makasuipatch'
     def ready(self):
         try:
-            print("+-" * 5 + "    Simple UI Pro 玛卡巴卡    " + "+-" * 5)
+            print("+-" * 5 + "    Simple UI Pro Patch by Makabaka   " + "+-" * 5)
             print("文件: " + __file__)
 
             from simplepro import conf
