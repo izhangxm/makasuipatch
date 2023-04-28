@@ -7,8 +7,8 @@ class MakasuipatchConfig(AppConfig):
     name = 'makasuipatch'
     def ready(self):
         try:
-            print("+-" * 5 + "    Simple UI Pro Patch by Makabaka   " + "+-" * 5)
-            print("文件: " + __file__)
+            print("+-" * 5 + "    SimplePro Patch by Makabaka   " + "+-" * 5)
+            print("File: " + __file__)
 
             from simplepro import conf
             from simplepro import handlers
